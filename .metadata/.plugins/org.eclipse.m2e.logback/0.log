@@ -761,3 +761,6 @@
 2026-03-18 21:28:22,844 [Worker-33: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of servlet-first
 2026-03-18 21:28:22,844 [Worker-33: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for servlet-first
 2026-03-18 21:37:39,796 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-03-18 21:45:21,547 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-03-18 22:10:11,541 [Worker-30: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project jdbc-first already exists
+2026-03-18 22:10:11,581 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
