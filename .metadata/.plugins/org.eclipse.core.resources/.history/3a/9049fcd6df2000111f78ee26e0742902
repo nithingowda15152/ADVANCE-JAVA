@@ -1,0 +1,30 @@
+package com.project;
+
+import java.util.Scanner;
+
+public class StudentDriver {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		StudentInterface st=new StudentImplementation();
+		
+		while(true) {
+			System.out.println("Welcome Alll....");
+			System.out.println("1.Insert\n2.Update\n3.Delete...\n11.Exit");
+			System.out.println("Choose an option: ");
+			int option=sc.nextInt();
+			
+			switch(option) {
+			case 1://Insert operation
+				st.addStudent();
+				break;
+			case 2://Update operation
+				break;
+			case 11: 
+				System.out.println("Thank You");
+				System.exit(0);
+			}
+		}
+	}
+
+}

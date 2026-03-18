@@ -1,0 +1,15 @@
+package com.first;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.mysql.cj.jdbc.Driver;
+public class FirstStep2 {
+	 public static void main(String[]args) {
+		 try {
+			DriverManager.registerDriver(new Driver());
+			System.out.println("Registering Driiver Class is Done...");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	 }
+}

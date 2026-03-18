@@ -1,0 +1,50 @@
+package com.second;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+public class InsertData {
+
+	public static void main(String[] args) {
+		String url="jdbc:mysql://localhost:3306/first-jdbc-db?createDatabaseIfNotExist=true";
+		String user="root";
+		String password="W7301@jqir#";
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con=DriverManager.getConnection(url,user,password);
+			//step 3
+			//in place of data/values ->use delimeter(?)=placeholder
+			String query="INSERT INTO student VALUES(?,?,?,?)";
+			//LEFT TO RIGHT POSITIONS                1 2 3 4
+			PreparedStatement ps=con.prepareStatement(query);
+			//ask user for Data
+			Scanner sc=new Scanner(System.in);
+			System.out.println("Enter Student ID: ");
+			int id=sc.nextInt();
+			System.out.println("Enter Student NAME: ");
+			String name=sc.next();
+			System.out.println("Enter Student MARKS: ");
+			double marks=sc.nextDouble();
+			System.out.println("Enter Student EMAIL: ");
+			String email=sc.next();
+			//set the data given by the user to delimeter
+			//HOW?-->In PS we have setX(delimeterPosition,data)methods
+			//X-datatype of column,non static
+			ps.setInt(1, id);
+			ps.setString(2,name);
+			ps.setDouble(3, marks);
+			ps.setString(4, email);
+			
+			//PS has execute methods ----no query should passed
+			ps.execute();
+			con.close();
+			System.out.println("Data Inserted");
+
+		}
+	}
+
+}
