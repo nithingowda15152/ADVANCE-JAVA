@@ -162,7 +162,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\JAVA_ADVANCE_QSP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/></Host>
+      <Context docBase="D:\JAVA_ADVANCE_QSP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\JAVA_ADVANCE_QSP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\servlet-first" path="/servlet-first" reloadable="true" source="org.eclipse.jst.j2ee.server:servlet-first"/><Context docBase="D:\JAVA_ADVANCE_QSP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\employee_servlet_jdbc" path="/employee_servlet_jdbc" reloadable="true" source="org.eclipse.jst.j2ee.server:employee_servlet_jdbc"/><Context docBase="D:\JAVA_ADVANCE_QSP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\servlet-second" path="/servlet-second" reloadable="true" source="org.eclipse.jst.jee.server:servlet-second"/></Host>
     </Engine>
   </Service>
 </Server>

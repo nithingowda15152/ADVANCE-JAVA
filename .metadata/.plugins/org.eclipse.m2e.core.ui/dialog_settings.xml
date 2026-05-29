@@ -2,6 +2,14 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\JAVA_ADVANCE_QSP\springmvc-first\src\main\java\com\first\HomeController.java"/>
+			<item value="D:\JAVA_ADVANCE_QSP\springcore-first\src\main\java\InternalClass\GetInternalClass.java"/>
+			<item value="D:\JAVA_ADVANCE_QSP\manytomany\src\main\java\manytomany\FindOneStudent.java"/>
+			<item value="D:\JAVA_ADVANCE_QSP\onetomany\src\main\java\onetomany\FindData.java"/>
+			<item value="D:\JAVA_ADVANCE_QSP\onetoone\src\main\java\onetoone\FindData.java"/>
+			<item value="D:\JAVA_ADVANCE_QSP\onetoone\src\main\java\onetoone\MainClass.java"/>
+			<item value="D:\JAVA_ADVANCE_QSP"/>
+			<item value="D:\JAVA_ADVANCE_QSP\hibernate-first\src\main\java\com\first\MainClass.java"/>
 			<item value="D:\JAVA_ADVANCE_QSP\servlet-first"/>
 			<item value="D:\JAVA_ADVANCE_QSP\jdbc-first"/>
 			<item value="D:\JAVA-ADVANCE"/>
@@ -31,15 +39,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.servlet_first"/>
-			<item value="com.first_servle"/>
+			<item value="com.first"/>
 		</list>
 		<list key="groupId">
 			<item value="com"/>
 		</list>
 		<list key="artifactId">
-			<item value="servlet-first"/>
-			<item value="first-servle"/>
+			<item value="employee-mvc-hibernate"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -75,5 +81,21 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\JAVA_ADVANCE_QSP\jdbc-first"/>
+			<item value="D:\JAVA-ADVANCE-CODE\JAVA-ADVANCE\JDBC\jdbc-first"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="JDBC---first"/>
+			<item value="JDBC-FIRST"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>

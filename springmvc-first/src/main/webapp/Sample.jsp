@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="read">
+    ENTER NAME : <input type="text" name="username"><br><br>
+    ENTER AGE  : <input type="text" name="userage"><br><br>
+    ENTER PHONO: <input type="text" name="userphono"><br><br>
+
+    <input type="submit" value="submit">
+</form>
+
+</body>
+</html>
